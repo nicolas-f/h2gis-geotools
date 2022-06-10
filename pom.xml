@@ -12,7 +12,7 @@
 
     <groupId>org.orbisgis</groupId>
     <artifactId>gt-h2gis</artifactId>
-    <version>28-SNAPSHOT</version>
+    <version>27.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <!-- Project Information -->
@@ -53,10 +53,12 @@
 
     <!-- Properties -->
     <properties>
-        <geotools-version>28-SNAPSHOT</geotools-version>
-        <h2gis-version>2.0.0</h2gis-version>
-        <h2-version>2.1.210</h2-version>
+        <geotools-version>27.0</geotools-version>
+        <h2gis-version>2.1.0-SNAPSHOT</h2gis-version>
+        <h2-version>2.1.212</h2-version>
         <cts-version>1.6.0</cts-version>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
     <!-- Dependencies -->
